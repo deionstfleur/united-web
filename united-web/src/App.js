@@ -4,6 +4,7 @@ import Feed from './Feed'
 import Widgets from './Widgets'
 import Home from '../src/Home';
 import Explore from '../src/Explore'
+import FrontPage from '../src/FontPage'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,6 +16,7 @@ function App() {
   return (
     <Router>
       <Switch>
+      {/* <Route path="/front" component={FrontPage} exact /> */}
         <Route path="/" component={Home} exact />
         <Route path="/Explore" component={Explore} exact />
       </Switch>

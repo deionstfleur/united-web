@@ -8,10 +8,11 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone'
 import {Button} from '@material-ui/core'
 import Explore from '../src/Explore'
 import {Link} from 'react-router-dom'
+
 function Sidebar() {
     return (
         <div className="sidebar">
-            <Link to="/">
+            <Link to="/front">
                 <FilterDramaIcon className='icon' />
             </Link>
             <Link to="/">

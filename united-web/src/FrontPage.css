@@ -1,0 +1,15 @@
+.picture > img {
+    height: 100vh;
+    width: 60%;  
+}
+
+.picture {
+    display: flex;
+    align-items: center;  
+}
+
+.picture > span {
+    margin-left: 150px;
+    margin-bottom: 500px;
+    font-size: 80px;
+}
