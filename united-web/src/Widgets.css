@@ -17,7 +17,7 @@
     background-color: var(--united-background);
 }
 
-.widgets_widgetsContainer {
+.widgets_widgetContainer {
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
@@ -29,7 +29,7 @@
     color: gray;
 }
 
-.widgets_widgetsContainer > h2 {
+.widgets_widgetContainer > h2 {
     font-size: 18px;
     font-weight: 800;
 }

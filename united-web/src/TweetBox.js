@@ -42,7 +42,7 @@ function TweetBox() {
                      className="tweetBox_imageInput" 
                      placeholder='Optional: Enter image' 
                      type="text" />
-                <Button type="submit" onClick={sendTweet} className='tweetBox_tweetButton'>Tweet</Button>
+                <Button type="submit" onClick={sendTweet} className='tweetBox_tweetButton'>Post</Button>
             </form>
         </div>
     )

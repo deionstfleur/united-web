@@ -11,7 +11,7 @@ const Widgets = () => {
            </div>
 
            <div className="widgets_widgetContainer">
-                <h2>What's happening</h2>
+                <h2>Popular Events</h2>
            </div>
         </div>
     )

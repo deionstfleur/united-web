@@ -1,7 +1,6 @@
 import React from 'react'
 import '../src/FrontPage.css'
 import {Link} from 'react-router-dom'
-import Button from 'react-bootstrap/Button';
 
 
 
@@ -17,7 +16,7 @@ function FontPage() {
                     <h1 >LinkMe</h1>
                     <Link to="/" style={{textDecoration: 'none', color: 'white'}}>
                     <div style={{backgroundColor: "blue", borderRadius: 30}} >
-                         <p style={{justifyContent: 'center', alignItems: 'center'}}>Explore</p>
+                         <p style={{justifyContent: 'center', alignItems: 'center', textAlign: 'center'}}>Explore</p>
                     </div>
                     </Link>
                 </div>
