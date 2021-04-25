@@ -5,6 +5,7 @@ import SidebarOption from './SidebarOption'
 import HomeIcon from '@material-ui/icons/Home'
 import SearchIcon from '@material-ui/icons/Search'
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone'
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import GroupIcon from '@material-ui/icons/Group';
 import {Button} from '@material-ui/core'
 import Explore from '../src/Explore'
@@ -22,8 +23,13 @@ function Sidebar() {
             <Link to="/Explore" style={{textDecoration: 'none', color: 'black'}}>
                  <SidebarOption Icon={SearchIcon} text="Explore" />
             </Link>
-            <SidebarOption Icon={NotificationsNoneIcon} text="Sign Up" />
-            <SidebarOption Icon={GroupIcon} text="Friends" />
+            {/* <SidebarOption Icon={NotificationsNoneIcon} text="Sign Up" /> */}
+            <Link to="/Friends" style={{textDecoration: 'none', color: 'black'}}>
+                 <SidebarOption Icon={GroupIcon} text="Friends" />
+            </Link>
+            <Link to="/Communities" style={{textDecoration: 'none', color: 'black'}}>
+                <SidebarOption Icon={AccountBalanceIcon} text="Communities" />
+            </Link>
             <Button variant="outline" className="sidebar_tweet" fullWidth>Create Event</Button>
         </div>
 
