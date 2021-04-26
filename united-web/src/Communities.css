@@ -35,3 +35,17 @@
     border: none;
     background-color: var(--united-background);
 }
+
+.bar > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    /* box-shadow: 1px 1px black; */
+    cursor: pointer;
+    padding: 32px;
+   
+}
+
+/* .bar:hover {
+    transform: scale(1.04);
+} */
